@@ -10,7 +10,7 @@ jobs:
   MyFirstJob:
     runs-on: ubuntu-latest
     steps:
-      - run echo "👋 🌎"
+      - run: echo "👋 🌎"
 
       - name: Checkout
         uses: actions/checkout@v4.1.2
